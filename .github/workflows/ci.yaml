@@ -22,6 +22,6 @@ jobs:
         run: 
           git branch
           echo "Actor Name:${{github.actor}}"
-          echo "Repo Name:${{github.reposstory}}"
+          echo "Repo Name:${{github.repository}}"
           echo "Event Name:${{github.event}}"
         
